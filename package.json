@@ -1,0 +1,12 @@
+{
+  "name": "ringside-deploy-bot",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Announces CI and deploy results as robot-combat fight commentary in Discord.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js",
+    "demo": "node index.js --status=success --repo=mando-made/scriptyr --branch=main --commit=a1b2c3d4 --actor=mando-made --duration=134 --dry-run"
+  },
+  "license": "MIT"
+}
